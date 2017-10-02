@@ -41,7 +41,8 @@ body{
 }
 .goRight{
     position: relative;
-    transition: opacity 0s, left 2s;
+    left: 0;
+    transition: opacity 1s, left 2s;
 }
 .right-aside h1{
     font-size: 30px;
@@ -119,5 +120,3 @@ body{
     left: 230px;
     transform:scale(1.6,1.6);
 }
-
-
