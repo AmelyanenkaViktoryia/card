@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+.main-wrapper{
+    background: url(img/background.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    height: 61em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.asides-wrapper{
+    height: 280px;
+    width: 500px;
+    display: flex;
+}
+.left-aside{
+    height: 100%;
+    width: 25%;
+    background-color: #000;
+}
+.logo{
+    text-align: center;
+    margin-top: 30px;
+}
+.logo svg{
+    height: 60px;
+    width: auto;
+    margin-top: 15px;
+    position: relative;
+    fill: #fff;
+    transition: 2s;
+}
+.right-aside{
+    background-color: #fff;
+    height: 100%;
+    width: 75%;
+    padding: 0 0 25px 25px;
+    box-sizing: border-box;
+}
+.goRight{
+    position: relative;
+    transition: opacity 0s, left 2s;
+}
+.right-aside h1{
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 25px;
+}
+.right-aside p{
+    margin: 0 0 4px 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;    
+}
+.right-aside > p:nth-child(2){
+   margin-bottom: 9px;
+}
+.black-line{
+    width: 175px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 17px;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+}
+.bold-text{
+    font-weight: bold;
+}
+.icons-wrapper{
+    margin-top: 55px;
+}
+.icon{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border: 2px solid #000;
+    background: url() 50% 50% no-repeat;
+    margin-right: 7px;
+}
+.facebook{
+    background-image: url(img/facebook-letter-logo.svg), none;     
+    background-size: auto 55%;
+}
+.twitter{
+    background-image: url(img/twitter-logo-silhouette.svg), none;     
+    background-size: auto 55%;
+}
+.google{
+    background-image: url(img/google-plus-symbol.svg), none;     
+    background-size: auto 55%;
+}
+.in{
+    background-image: url(img/vk-social-logotype.svg), none;     
+    background-size: auto 55%;
+}
+.cube{
+    background-image: url(img/cube.svg), none;     
+    background-size: auto 55%;
+}
+.github{
+    background-image: url(img/github-logo.svg), none;     
+    background-size: auto 55%;
+}
+.left-aside:hover {
+    cursor: pointer;
+}
+.left-aside:hover ~ .right-aside .goRight{
+    opacity: 0;
+    left: 350px;    
+}
+.left-aside:hover > .logo svg{   
+    fill: #000;
+    top: 40px;
+    left: 230px;
+    transform:scale(1.6,1.6);
+}
+
+
