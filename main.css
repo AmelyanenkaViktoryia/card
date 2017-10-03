@@ -30,7 +30,7 @@ body{
     margin-top: 15px;
     position: relative;
     fill: #fff;
-    transition: 2s;
+    transition: 1s;
 }
 .right-aside{
     background-color: #fff;
@@ -42,7 +42,7 @@ body{
 .goRight{
     position: relative;
     left: 0;
-    transition: opacity 1s, left 2s;
+    transition: opacity 1s, left 1s;
 }
 .right-aside h1{
     font-size: 30px;
